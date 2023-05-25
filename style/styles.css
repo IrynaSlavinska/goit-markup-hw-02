@@ -158,3 +158,39 @@ a {
 .footer-text {
   color: var(--footer-color-logotext);
 }
+
+/** ---------------------FOOTER--------------------- */
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-button {
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-button:hover {
+  color: #ffffff;
+}
+
+/** ---------------------PROJECTS--------------------- */
+
+.projects {
+}
+.projects-list {
+}
+.projects-list-item {
+}
+.projects-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--notmain-color);
+}
+.projects-list-text {
+}
