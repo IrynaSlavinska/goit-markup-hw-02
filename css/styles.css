@@ -36,16 +36,18 @@ body {
 .header-logo-span {
   color: #2e2f42;
 }
-.header-menu.list {
-  list-style: none;
+
+.header-menu-item.link {
+  list-style-type: none;
 }
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
   color: var(--notmain-color);
 }
-.header-menu-link.link {
+.header-menu-link {
   text-decoration: none;
+  list-style: none;
 }
 .header-menu-link:focus,
 .header-menu-link:hover {
