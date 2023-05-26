@@ -56,7 +56,9 @@ body {
 .header-menu-link:focus {
   color: #404bbf;
 }
-
+.header-address {
+  font-style: normal;
+}
 .header-address-list.list {
   list-style: none;
 }
@@ -84,6 +86,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--hero-sect-color);
 }
 .hero-button {
@@ -126,6 +129,7 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
   color: var(--notmain-color);
 }
 .works-list.list {
@@ -141,6 +145,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: var(--notmain-color);
 }
 .team-list {
