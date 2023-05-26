@@ -1,9 +1,10 @@
 :root {
   --logo-footer: #f4f4fd;
-  --hover-focus-color: #4d5ae5;
+  --logo-color-main: #4d5ae5;
   --hero-sect-color: #ffffff;
   --notmain-color: #2e2f42;
   --footer-color-logotext: #f4f4fd;
+  --main-color: #434455;
 }
 
 body {
@@ -14,52 +15,56 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
+  background-color: #ffffff;
 }
 /** ---------------------HEADER--------------------- */
 .header {
 }
 
 .header-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--logo-color-main);
+}
+.header-logo.link {
+  text-decoration: none;
+}
+.header-logo-span {
   color: #2e2f42;
 }
-.header-logo span {
-  color: #4d5ae5;
+.header-menu.list {
+  list-style: none;
 }
 .header-menu-link {
   font-weight: 500;
   font-size: 16px;
   color: var(--notmain-color);
 }
-.header-menu-link:active {
-  color: #404bbf;
+.header-menu-link.link {
+  text-decoration: none;
 }
 .header-menu-link:focus,
 .header-menu-link:hover {
-  color: var(--hover-focus-color);
+  color: #404bbf;
 }
 .header-address {
   text-decoration: none;
   list-style-type: none;
   font-style: normal;
 }
+.header-address-item.link {
+  text-decoration: none;
+}
 .header-address-item {
   color: inherit;
 }
 .header-address-item:focus,
 .header-address-item:hover {
-  color: var(--hover-focus-color);
+  color: #404bbf;
 }
 
 /** ---------------------HERO SECTION--------------------- */
@@ -78,15 +83,22 @@ a {
   font-family: inherit;
   font-weight: 500;
   align-items: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--hero-sect-color);
+  background-color: #4d5ae5;
   cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 /** ---------------------BENEFITS SECTION--------------------- */
 .benefits {
 }
 .benefits-list {
+  list-style: none;
 }
 .benefits-item {
 }
@@ -94,6 +106,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em
   color: var(--notmain-color);
 }
 .benefits-item-text {
@@ -110,7 +123,9 @@ a {
   text-align: center;
   color: var(--notmain-color);
 }
-
+.works-list.list {
+list-style: none;
+}
 /** ---------------------TEAM SECTION--------------------- */
 .team {
   background-color: #f4f4fd;
@@ -119,18 +134,24 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--notmain-color);
 }
 .team-list {
 }
+.team-list.list {
+  list-style: none;
+}
 .team-item {
+  background-color: #ffffff;
 }
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--notmain-color);
 }
@@ -144,25 +165,31 @@ a {
   background-color: #2e2f42;
 }
 .footer-logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--footer-color-logotext);
+  color: var(--logo-color-main);
 }
-.footer-logo span {
-  color: #4d5ae5;
+.footer-logo.link {
+  text-decoration: none;
+}
+.footer-logo-span {
+color: #f4f4fd;
 }
 .footer-text {
   color: var(--footer-color-logotext);
 }
 
-/** ---------------------FOOTER--------------------- */
+/** ---------------------PORTFOLIO-HERO--------------------- */
 .portfolio {
 }
 .portfolio-list {
+}
+.portfolio-list.list {
+  list-style: none;
 }
 .portfolio-list-item {
 }
@@ -170,27 +197,39 @@ a {
   font-weight: 500;
   align-items: center;
   text-align: center;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: #F4F4FD;
 }
-.portfolio-button:hover {
+.portfolio-button:focus, .portfolio-button:hover {
   color: #ffffff;
+  background-color: #404BBF;
 }
 
 /** ---------------------PROJECTS--------------------- */
 
 .projects {
 }
-.projects-list {
+.projects.list {
+  list-style: none;
 }
-.projects-list-item {
+.projects-link.link {
+  text-decoration: none;
 }
-.projects-list-title {
+.projects-item {
+}
+.projects-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--notmain-color);
 }
-.projects-list-text {
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
 }
