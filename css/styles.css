@@ -106,7 +106,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   color: var(--notmain-color);
 }
 .benefits-item-text {
@@ -124,7 +124,7 @@ body {
   color: var(--notmain-color);
 }
 .works-list.list {
-list-style: none;
+  list-style: none;
 }
 /** ---------------------TEAM SECTION--------------------- */
 .team {
@@ -177,7 +177,7 @@ list-style: none;
   text-decoration: none;
 }
 .footer-logo-span {
-color: #f4f4fd;
+  color: #f4f4fd;
 }
 .footer-text {
   color: var(--footer-color-logotext);
@@ -201,11 +201,12 @@ color: #f4f4fd;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
-.portfolio-button:focus, .portfolio-button:hover {
+.portfolio-button:focus,
+.portfolio-button:hover {
   color: #ffffff;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 /** ---------------------PROJECTS--------------------- */
