@@ -48,6 +48,13 @@ body {
   letter-spacing: 0.02em;
   color: var(--notmain-color);
 }
+
+.header-menu-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
 .header-menu-link.link {
   text-decoration: none;
 }
@@ -55,7 +62,18 @@ body {
 .header-menu-link:focus {
   color: #404bbf;
 }
+.header-address {
+  font-style: normal;
+}
 
+.header-address-list.list {
+  list-style: none;
+}
+
+.header-address-item.link:hover,
+.header-address-item.link:focus {
+  color: #404bbf;
+}
 /** ---------------------HERO SECTION--------------------- */
 .hero {
   background-color: #2e2f42;
